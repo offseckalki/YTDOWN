@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>YouTube Downloader & Converter</title>
-</head>
+
 <body>
 
 <h1 align="center">YouTube Downloader & Converter</h1>
