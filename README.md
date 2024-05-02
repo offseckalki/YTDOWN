@@ -1,3 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>YouTube Downloader & Converter</title>
+</head>
+<body>
+
 <h1 align="center">YouTube Downloader & Converter</h1>
 
 <p align="center">This Python project allows you to download videos from YouTube and convert them to MP3 or WAV audio formats.</p>
@@ -10,6 +17,7 @@
   <li>Download YouTube videos in various qualities.</li>
   <li>Convert downloaded videos to MP3 or WAV audio files.</li>
   <li>User-friendly command-line interface (CLI) with a menu-based interaction.</li>
+  <li>Graphical User Interface (GUI) version created with the help of AI (ChatGPT) for enhanced usability.</li>
 </ul>
 
 <hr>
@@ -18,7 +26,7 @@
 
 <ul>
   <li>Python 3.x</li>
-  <li>Required Python packages: <code>pytube</code>, <code>moviepy</code></li>
+  <li>Required Python packages: <code>pytube</code>, <code>moviepy</code>, <code>tkinter</code></li>
 </ul>
 
 <p>Install the required packages using pip:</p>
@@ -39,37 +47,34 @@ cd YouTubeDownloader
 </code></pre>
 
 <ol start="2">
-  <li>Run the <code>youtube_downloader.py</code> script:</li>
+  <li>Run the GUI version of the application:</li>
 </ol>
 
-<pre><code>python youtube_downloader.py
+<pre><code>python youtube_downloader_gui.py
 </code></pre>
 
-<ol start="3">
-  <li>Choose from the following options in the interactive menu:</li>
-</ol>
-
-<ul>
-  <li><strong>Download YouTube Video:</strong> Enter a YouTube video URL to download.</li>
-  <li><strong>Convert YouTube Video to MP3:</strong> Enter a YouTube video URL to convert to MP3 format.</li>
-  <li><strong>Convert YouTube Video to WAV:</strong> Enter a YouTube video URL to convert to WAV format.</li>
-  <li><strong>Exit:</strong> Quit the program.</li>
-</ul>
+<p>A graphical interface will appear, allowing you to input the YouTube video URL, choose an action (download or convert), and specify the output format.</p>
 
 <hr>
 
 <h2>Example</h2>
 
-<p>Here's a quick example of how to use the program:</p>
+<p>Here's a quick example of how to use the GUI:</p>
 
 <ol>
-  <li>Select option <code>1</code> to download a YouTube video.</li>
-  <li>Enter the YouTube video URL and specify the download location.</li>
-  <li>Choose option <code>2</code> or <code>3</code> to convert the downloaded video to MP3 or WAV format.</li>
+  <li>Enter the YouTube video URL.</li>
+  <li>Select an action from the dropdown menu (Download, Convert to MP3, Convert to WAV).</li>
+  <li>Provide the output path where the downloaded or converted file should be saved.</li>
+  <li>Click the "Submit" button to perform the selected action.</li>
 </ol>
 
 <hr>
 
+<h2>Screenshots</h2>
+
+<p align="center">
+  <!-- Include screenshots of the GUI here -->
+</p>
 
 <hr>
 
@@ -85,3 +90,6 @@ cd YouTubeDownloader
 <h2>License</h2>
 
 <p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details.</p>
+
+</body>
+</html>
