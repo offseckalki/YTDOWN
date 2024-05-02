@@ -79,8 +79,8 @@ cd YouTubeDownloader
 <h2>Author</h2>
 
 <ul>
-  <li>Your Name</li>
-  <li>GitHub: <a href="https://github.com/yourusername">yourusername</a></li>
+  <li>Drash(offseckalki)</li>
+  <li>GitHub: <a href="https://github.com/offseckalki">offseckalki</a></li>
 </ul>
 
 <hr>
