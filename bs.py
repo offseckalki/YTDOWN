@@ -53,7 +53,7 @@ def main():
         print("\nMenu:")
         print("1. Download YouTube Video")
         print("2. Convert YouTube Video to MP3")
-        print("3. Convert YouTube Video to WAV")
+        print("3. Convert YouTube Video to WAV(Highest Quality Possible!😎)")
         print("4. Exit")
 
         choice = input("Enter your choice (1/2/3/4): ")
