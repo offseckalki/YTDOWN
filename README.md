@@ -40,15 +40,15 @@
   <li>Clone the repository:</li>
 </ol>
 
-<pre><code>git clone https://github.com/yourusername/YouTubeDownloader.git
-cd YouTubeDownloader
+<pre><code>git clone https://github.com/offseckalki/YTDOWN.git
+cd YTDOWN
 </code></pre>
 
 <ol start="2">
   <li>Run the GUI version of the application:</li>
 </ol>
 
-<pre><code>python youtube_downloader_gui.py
+<pre><code>python YTDOWNGUI.py
 </code></pre>
 
 <p>A graphical interface will appear, allowing you to input the YouTube video URL, choose an action (download or convert), and specify the output format.</p>
