@@ -5,8 +5,19 @@ import os
 def download_video(url, output_path):
     try:
         yt = YouTube(url)
-        stream = yt.streams.get_highest_resolution()
-        stream.download(output_path)
+        
+        # Display available stream options
+        streams = yt.streams.filter(progressive=True)
+        print("Available video qualities:")
+        for i, stream in enumerate(streams, start=1):
+            print(f"{i}. {stream.resolution} ({stream.mime_type})")
+
+        # Prompt user to choose a quality
+        choice = input("Enter the number corresponding to the desired video quality: ")
+        selected_stream = streams[int(choice) - 1]
+
+        # Download selected video stream
+        selected_stream.download(output_path)
         print("Download completed!")
     except Exception as e:
         print(f"Error: {e}")
