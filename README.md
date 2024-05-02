@@ -72,8 +72,9 @@ cd YouTubeDownloader
 
 
 <p align="center">
+  CLI
   <img src="https://raw.githubusercontent.com/offseckalki/YTDOWN/main/ScreenShots/Screenshot%20from%202024-05-02%2021-26-24.png" alt="CLI Screenshot 1" width="600">
-  <p>GUI</p>
+  <p align="center">GUI</p>
   <img src="https://raw.githubusercontent.com/offseckalki/YTDOWN/main/ScreenShots/Screenshot%20from%202024-05-02%2021-26-56.png" alt="GUI Screenshot 1" width="600">
   <img src="https://raw.githubusercontent.com/offseckalki/YTDOWN/main/ScreenShots/Screenshot%20from%202024-05-02%2021-28-09.png" alt="GUI Screenshot 1" width="600">
 
