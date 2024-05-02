@@ -49,6 +49,7 @@ def convert_youtube_to_audio(video_url, output_format='mp3'):
 
 def main():
     while True:
+        print("\nWelcome to the Youtube Video Downloader and Converter!:")
         print("\nMenu:")
         print("1. Download YouTube Video")
         print("2. Convert YouTube Video to MP3")
